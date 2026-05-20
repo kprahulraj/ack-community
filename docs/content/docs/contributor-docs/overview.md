@@ -82,3 +82,15 @@ After getting your development environment established, you will want to learn
 
 Last but not least, in the [testing](../testing/) section we show you how to
 test ACK locally.
+
+## Documenting Breaking Changes
+
+If your PR introduces a breaking change (e.g., changing a default value, removing a flag, altering reconciliation behavior), you must update the [Breaking Changes](../community/breaking-changes/) page.
+
+Add an entry with:
+- A clear description of what is changing
+- Timeline (if phased rollout)
+- Who is affected
+- Action required for users to migrate
+
+This ensures users are informed before upgrading their controllers.
